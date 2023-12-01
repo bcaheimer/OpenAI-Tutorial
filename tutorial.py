@@ -28,13 +28,13 @@ def generate_image(prompt):
 """ Generates caption based on image
 	Parameters
     ----------
-	prompt | bytes
-		bytes corresponding to image
+	prompt | str
+		text to prompt fun fact (e.g "A fun fact about frogs is")
 
 	Returns
     -------
     str
-		text describing image
+		text with fun fact
 """
 def generate_caption(prompt):
 	# TODO implement function
